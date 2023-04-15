@@ -1,0 +1,47 @@
+.Top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px 0;
+  &__search {
+    width: 350px;
+    margin: 15px 0 8px 0;
+    position: relative;
+    input {
+      color: #000;
+      border: 1px solid #353535;
+      padding: 5px;
+      font-style: italic;
+      width: 100%;
+      outline: none;
+      transition: all 0.3s ease;
+    }
+    svg {
+      position: absolute;
+      right: 4px;
+      top: 5px;
+      font-size: 25px;
+      color: #666666;
+    }
+  }
+  &__client {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    li {
+      margin: 0 5px;
+      color: #ffffff;
+      font-family: "roboto";
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      svg {
+        color: #ffffff;
+        margin-right: 4px;
+      }
+      &:hover {
+        color: #ccc;
+      }
+    }
+  }
+}

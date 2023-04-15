@@ -1,0 +1,92 @@
+.baner {
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  &__title {
+    color: #ff9601;
+    font-size: 25px;
+    font-family: "roboto";
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 12px 5px;
+  }
+  &__slick{
+    display: flex;
+    overflow-x: scroll;
+    &::-webkit-scrollbar{
+      display: none !important;
+    }
+  }
+  &__item {
+    display: block;
+    width: 195px;
+    &:hover{
+      svg{
+        opacity: 0.8;
+        transform: scale(1.5);
+        transition: all 0.3s ease-in-out;
+      }
+      img{
+        transition: all 0.3s ease-in-out;
+        transform: scale(1.5);
+      }
+    }
+    svg {
+      background: #ff9601;
+      color: #fff;
+      height: 50px;
+      width: 50px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin: -25px 0 0 -25px;
+      border-radius: 50%;
+      opacity: 0;
+      transform: scale(1.2);
+      transition: all 0.3s ease-in-out;
+    }
+  }
+  &__content {
+    margin: 0 10px;
+    width: 175px;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  &__tap {
+    position: absolute;
+    padding: 5px;
+    font-size: 11px;
+    line-height: 1;
+    color: #ffffff;
+    background: #e74c3c;
+    border-bottom: 2px solid #bb3c2f;
+    top: 5px;
+    z-index: 2;
+    border-radius: 0;
+    font-weight: normal;
+    border-radius: 0 5px 5px 0;
+  }
+  &__img {
+    img {
+      height: 255.6px;
+      vertical-align: middle;
+    }
+  }
+  &__name{
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    color: #ffffff;
+    padding: 8px;
+    font-size: 16px;
+    font-family: 'roboto';
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+  }
+}

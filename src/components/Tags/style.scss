@@ -1,0 +1,19 @@
+.Tags {
+  color: #5f5f5f;
+  margin: 20px 0 0;
+  padding: 10px;
+  display: block;
+  &__p{
+    color: #fff;
+    margin: 0 0 10px 0;
+    display: block;
+  }
+  span{
+    margin: 0 0 10px;
+    font-size: 12px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+  }
+}

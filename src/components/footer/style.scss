@@ -1,0 +1,45 @@
+.footer {
+  color: #666666;
+  background: #060606;
+  font-size: 12px;
+  &__right {
+    width: 700px;
+    padding-top: 10px;
+    p {
+      color: #666666;
+      font-size: 12.5px;
+      a {
+        color: #ccc;
+        text-decoration: none;
+      }
+    }
+    margin-right: 20px;
+  }
+  &__left {
+    background: #000;
+    display: flex;
+    padding: 20px;
+    width: 260px;
+    font-size: 11px;
+    position: relative;
+  }
+  &__column {
+    display: block;
+    overflow: hidden;
+    width: 50%;
+    ul {
+      li {
+        margin-top: 5px;
+        list-style: circle;
+        a {
+          color: #b6b6b6;
+          font-weight: normal;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  &__heading {
+    font-weight: bold;
+  }
+}

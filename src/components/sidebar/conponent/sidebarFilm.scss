@@ -1,0 +1,36 @@
+.SidebarFilm{
+  margin: 0 0 40px 0;
+  overflow: hidden;
+  &__item{
+    overflow: hidden;
+    margin: 5px 0 0 5px;
+    &:nth-child(2n){
+      background: rgba(20,20,20,0.5);
+    }
+  }
+  &__img{
+    vertical-align: middle;
+    object-fit: cover;
+    width: 75px;
+    height: 87px;
+    float: left;
+    margin: 3px 10px 0 0;
+    border: 1px solid #efefef;
+  }
+  &__name{
+    color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+  &__nam{
+    font-size: 12px;
+    color: #BABABA;
+  }
+  &__star{
+    width: 200px;
+    img{
+      vertical-align: middle;
+    }
+  }
+}

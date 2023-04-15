@@ -1,0 +1,52 @@
+.sidebarTab{
+  margin: 0 0 30px 0;
+  &__tabs{
+    display: flex;
+    .active{
+      background-color: #5d5d5d;
+    }
+  }
+  &__tab{
+    color: #fff;
+    margin: 0 0 10px;
+    font-size: 13px;
+    width: 33.33%;
+    padding: 8px 0;
+    border-radius: 0;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  &__item{
+    position: relative;
+    padding: 5px 0 5px 35px;
+  }
+  &__stt{
+    position: absolute;
+    background: #ff9601;
+    color: #fff;
+    font-weight: bold;
+    left: 5px;
+    top: 17px;
+    width: 23px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 15px;
+  }
+  &__name{
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: bold;
+    &:hover{
+      color: #ff9601;
+    }
+  }
+  &__des{
+    color: #BABABA;
+    font-size: 12px;
+    margin: 3px 0 0 0;
+    font-style: italic;
+  }
+}

@@ -1,0 +1,124 @@
+.detailFilm {
+  background-color: rgb(24, 24, 24, 0.85);
+  padding: 10px;
+
+  &__lc {
+    margin: 10px 0 0 0;
+    border: 1px solid #ff9601;
+    background: #000;
+    padding: 10px;
+    margin-bottom: 6px;
+    font-family: Arial, Tahoma;
+    font-size: 14px;
+    color: #dcdcdc;
+    span {
+      text-transform: uppercase;
+    }
+  }
+
+  &__gc {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__gc1 {
+    display: flex;
+    margin: 0;
+    border: 1px dashed #e25ddb;
+    padding: 5px;
+    font-family: Arial, Tahoma;
+    font-size: 14px;
+    color: #dcdcdc;
+    text-align: center;
+    align-items: center;
+    span {
+      margin-right: 5px;
+    }
+    svg {
+      font-size: 15px;
+    }
+  }
+
+  &__video {
+    background: #3e3e3e;
+    line-height: 0;
+    position: relative;
+    video {
+      width: 960px;
+      height: 540px;
+    }
+  }
+
+  &__server {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    svg {
+      font-size: 40px;
+      color: white;
+    }
+  }
+  &__list {
+    position: absolute;
+    left: -250%;
+    top: 67%;
+    margin-top: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    visibility: hidden;
+    li {
+      cursor: pointer;
+      padding: 6px 5px 6px 15px;
+      color: #ccc;
+      text-align: right;
+      list-style: none;
+      border-top: solid 1px #20201f;
+      font-size: 13px;
+      &:nth-child(1) {
+        border-top: none;
+      }
+      &:hover {
+        color: #ff9601;
+      }
+    }
+  }
+  &__active {
+    opacity: 1;
+    visibility: visible;
+  }
+  &__active2 {
+    color: white;
+    background: #ff9601;
+  }
+  &__name {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    p {
+      margin: 10px 0 0 0;
+      font-size: 25px;
+      line-height: 1.3em;
+      color: #ff9601;
+      margin-bottom: 5px;
+    }
+    span {
+      margin: 10px 0 0 0;
+      font-size: 20px;
+      line-height: 1.3em;
+      color: #ff9601;
+    }
+  }
+  &__content {
+    p {
+      padding: 5px 8px;
+      margin: 5px 0 20px 0;
+      line-height: 26px;
+      font-size: 12px;
+      color: #bbb;
+      background: #222;
+      a{
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+}

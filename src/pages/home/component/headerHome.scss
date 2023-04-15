@@ -1,0 +1,27 @@
+.HeaderHome {
+  width: 100%;
+  margin: 0 0 10px 0;
+  font-family: Arial, Tahoma;
+  font-size: 14px;
+  font-weight: 300;
+  background-color: rgb(24, 24, 24, 0.85);
+  padding-bottom: 5px;
+
+  &__tab{
+    display: inline-block;
+    margin: 0 5px 0;
+    padding: 12px 5px;
+    border-bottom: 3px solid #383838;
+    color: #fff;
+    cursor: pointer;
+  }
+  .active{
+    color: #ff9601;
+    border-bottom: 2px solid #ff6901;
+    font-size: 24px;
+    font-family: 'roboto';
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 10px 5px;
+  }
+}

@@ -1,0 +1,28 @@
+.selector{
+  display: flex;
+  overflow: hidden;
+  margin: 0 0 10px 0;
+  &__item{
+    overflow: hidden;
+  }
+  &__select{
+    width: 140px;
+    margin: 0 5px 0 0;
+    padding: 7px;
+    font-size: 12px;
+    background: #666666;
+    box-shadow: none;
+    border: none;
+    color: #fafafa;
+    outline: none;
+    border-radius: 0;
+  }
+  &__btn{
+    padding: 6px 15px;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #666666;
+    color: #fafafa;
+    margin: 0 0 0 10px;
+  }
+}
